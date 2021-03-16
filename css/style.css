@@ -1,0 +1,828 @@
+/*==============================================================
+				global section
+===============================================================*/
+body{
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6, p, ul, li, a, input {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0px 35px
+}
+.section-padding{
+    padding: 70px 0px
+}
+.btn-1{
+    background-color: #9b95c9;
+}
+.btn-2{
+    background-color: #30aad7;
+}
+.btn-1:hover, .btn-2:hover{
+    background-color: #000;
+    transition: 1s;
+}
+/*==============================================================
+				header section 
+===============================================================*/
+.header-section{
+    width: 100%;
+    padding: 20px 0px;
+    background-color: #222222;
+    color: #fff;
+}
+.header-section .header{
+    width: 100%; 
+    display:flex;
+}
+.header-section .header .header-left{
+    width: 60%;
+}
+.header-section .header .header-left ul{
+    display: flex;
+}
+.header-section .header .header-left ul li{
+    margin-right: 40px;
+}
+.header-section .header .header-left ul li i{
+    margin-right: 12px;
+    font-size: 20px;
+    color: #30aad7;
+}
+.header-section .header .header-left ul li a{
+    font-size: 15px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:400;
+}
+/* ****** Right ****** */
+
+.header-section .header .header-right{
+    width: 40%;
+}
+.header-section .header .header-right ul{
+    display: flex;
+    justify-content: flex-end;
+}
+.header-section .header .header-right ul li i{
+   font-size:20px;
+   color: #fff;
+   margin-left: 10px;
+}
+.header-section .header .header-right ul li i:hover{
+    color: #30aad7;
+    transform:rotate(360deg);
+    transition: 1s;
+}
+/*==============================================================
+				banner section 
+===============================================================*/
+.banner-section{
+    width: 100%;
+    background-image: url(../image/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+}
+.banner-section .banner{
+    width: 100%;
+}
+.banner-section .banner .banner-top{
+    width: 100%;
+    display: flex;
+    padding: 30px 0px
+}
+.banner-section .banner .banner-top .banner-left{
+    width: 40%;
+}
+.banner-section .banner .banner-top .banner-left img{
+    width: 40%;
+}
+.banner-section .banner .banner-top .banner-right{
+    width: 60%;
+}
+.banner-section .banner .banner-top .banner-right ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.banner-section .banner .banner-top .banner-right button{
+    padding: 11px 32px;
+    border-radius: 50px;
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:700;
+    border: none;
+    color: #fff;
+    margin: 30px 0px 30px 15px;
+}
+/* bottom */
+
+.banner-section .banner .banner-bottom{
+    margin: 300px 0px 500px;
+}
+.banner-section .banner .banner-bottom h1{
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:700;
+    color: #fff;
+}
+.banner-section .banner .banner-bottom p{
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:400;
+    color: #fff;
+    margin: 5px 0px 20px;
+}
+.banner-section .banner .banner-bottom ul{
+    display: flex;
+}
+.banner-section .banner .banner-bottom button{
+    padding: 11px 32px;
+    border-radius: 50px;
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:700;
+    border: none;
+    color: #fff;
+    margin-right:15px;
+}
+
+/*==============================================================
+				three section 
+===============================================================*/
+.three-section{
+    width: 100%;
+    background-color:red
+}
+.three-section .three{
+    width: 100%;
+    display: flex;
+}
+.three-section .three .three-left, .three-section .three .three-center, .three-section .three .three-right{
+    width: 33.33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:50px 0px;
+    background-color:#61c2ee;
+}
+.three-section .three .three-left{
+    background-color:#61c2ee;
+}
+.three-section .three .three-center{
+    background-color:#30aad7;
+}
+.three-section .three .three-right{
+    background-color:#005b8b;
+}
+.three-section .three p{
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:700;
+    color: #fff;
+}
+/*==============================================================
+				dentist section 
+===============================================================*/
+.dentist-section{
+    width: 100%;
+}
+.dentist-section .dentist{
+    width: 100%;
+}
+.dentist-section .dentist .dentist-title{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.dentist-section .dentist .dentist-title h2{
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:700;
+    line-height: 34px;
+    color: #005b8b;
+}
+.dentist-section .dentist .dentist-title p{
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:400;
+    color: #2c2c2c;
+    margin-top: 6px;
+}
+.dentist-section .dentist .dentist-details{
+    width: 100%;
+    display: flex;
+}
+.dentist-section .dentist .dentist-details .dentist-details-inner{
+    width: 32%;
+    margin-right: 1.33%;
+    background-color: #eff9fd;
+    text-align: center;
+    padding: 30px 0px
+
+}
+.dentist-section .dentist .dentist-details .dentist-details-inner:hover{
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .5);
+}
+.dentist-section .dentist .dentist-details .dentist-details-inner h3{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:700;
+    color: #000;
+    margin: 10px 0px;
+}
+.dentist-section .dentist .dentist-details .dentist-details-inner p{
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:400;
+    color: #2c2c2c;
+}
+.dentist-section .dentist .dentist-bottom ul{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.dentist-section .dentist .dentist-bottom button{
+    padding: 11px 32px;
+    border-radius: 50px;
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:700;
+    border: none;
+    color: #fff;
+    margin-right:15px;
+}
+
+/*==============================================================
+				technology section 
+===============================================================*/
+.technology-section{
+    width: 100%;
+    background-image: url(../image/Technology.png);
+    background-repeat:no-repeat;
+    background-position: right;
+    background-size: 100%;
+}
+.technology-section .technology{
+    width: 100%;
+}
+.technology-section .technology h3{
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:700;
+    color: #005b8b;
+}
+.technology-section .technology h6{
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:400;
+    color: #30aad7;
+    margin: 6px 0px;
+}
+.technology-section .technology p{
+    font-size: 12px;
+    line-height:17px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:400;
+    color: #494a4a;
+    margin-bottom: 20px;
+}
+.technology-section .technology button{
+    padding: 11px 32px;
+    border-radius: 50px;
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:700;
+    border: none;
+    color: #fff;
+}
+
+/*==============================================================
+				friendly section 
+===============================================================*/
+.friendly-section{
+    width: 100%;
+    background-image: url(../image/friendly.png);
+    background-repeat:no-repeat;
+    background-position: left;
+    background-size: 100%;
+}
+.friendly-section .friendly{
+    width: 100%;
+    display: flex;
+}
+.friendly-section .friendly .friendly-left{
+    width: 50%;
+    height: 100px;
+    background-color: transparent;
+}
+.friendly-section .friendly .friendly-right{
+    width: 50%;
+}
+.friendly-section .friendly .friendly-right h3{
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:700;
+    color: #005b8b;
+}
+.friendly-section .friendly .friendly-right h6{
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:400;
+    color: #30aad7;
+    margin: 6px 0px;
+}
+.friendly-section .friendly .friendly-right p{
+    font-size: 12px;
+    line-height:17px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:400;
+    color: #494a4a;
+    margin-bottom: 20px;
+}
+.friendly-section .friendly .friendly-right button{
+    padding: 11px 32px;
+    border-radius: 50px;
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:700;
+    border: none;
+    color: #fff;
+}
+
+/*==============================================================
+				trust section 
+===============================================================*/
+.trust-section{
+    width: 100%;
+    padding: 70px 0px;
+    background-color: #61c2ee;
+}
+.trust-section .trust{
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+.trust-section .trust h2{
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:700;
+    line-height: 34px;
+}
+.trust-section .trust p{
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:400;
+    margin: 10px 0px 20px;
+}
+.trust-section .trust button{
+    padding: 11px 32px;
+    border-radius: 50px;
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:700;
+    border: none;
+    color: #005b8b;
+    background-color: #fff;
+}
+.trust-section .trust button:hover{
+    background-color: #000;
+    transition: 1s;
+    color: #fff;
+}
+/*==============================================================
+				easy-section  
+===============================================================*/
+.easy-section{
+    width: 100%;
+}
+.easy-section .easy{
+    width: 100%;
+}
+.easy-section .easy .easy-title{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.easy-section .easy .easy-title h2{
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:700;
+    line-height: 34px;
+    color: #005b8b;
+}
+.easy-section .easy .easy-title p{
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:400;
+    color: #2c2c2c;
+    margin-top: 6px;
+}
+.easy-section .easy .easy-details{
+    width: 100%;
+    display: flex;
+}
+.easy-section .easy .easy-details .easy-details-inner{
+    width: 32%;
+    margin-right: 1.33%;
+    text-align: center;
+    padding: 30px 0px
+}
+.easy-section .easy .easy-details .easy-details-inner:hover{
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .5);
+}
+.easy-section .easy .easy-details .easy-details-inner img{
+    width: 30%;
+}
+.easy-section .easy .easy-details .easy-details-inner h3{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:700;
+    color: #000;
+    margin: 10px 0px;
+}
+.easy-section .easy .easy-details .easy-details-inner p{
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:400;
+    color: #2c2c2c;
+}
+.easy-section .easy .easy-btn{
+    text-align: center;
+    margin-top: 20px;
+}
+.easy-section .easy button{
+    padding: 11px 32px;
+    border-radius: 50px;
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:700;
+    border: none;
+    color: #fff;
+    background-color: #30aad7;
+}
+.easy-section .easy button:hover{
+    background-color: #000;
+    transition: 1s;
+}
+
+/*==============================================================
+				Testimonials section 
+===============================================================*/
+.Testimonials-section {
+    width: 100%;
+    background-color: #30aad7
+}
+.Testimonials-section .Testimonials{
+    width: 100%;
+    text-align: center;
+}
+.Testimonials-section .Testimonials h2{
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:700;
+    line-height: 34px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+ .Testimonials-inner{
+    width: 700px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding:30px 0px;
+    border-radius: 10px;
+}
+.Testimonials-inner i{
+    font-size: 15px;
+    color: #9b95c9 ;
+}
+.Testimonials-inner span{
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    color: #2c2c2c;
+}
+/* .Testimonials-inner .Testimonials-img */
+.Testimonials-inner .Testimonials-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.Testimonials-inner .Testimonials-img img{
+    width: 10%;
+    margin-right: 20px;
+}
+.Testimonials-inner .Testimonials-img h6{
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-align: left;
+}
+.Testimonials-inner .Testimonials-img p{
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-align: left;
+}
+
+/*==============================================================
+				Service section 
+===============================================================*/
+.Service-section{
+    width: 100%;
+}
+.Service-section .Service{
+    width: 100%;
+}
+.Service-section .Service h2{
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:700;
+    line-height: 34px;
+    color: #30aad7;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.Service-section .Service .Service-inner{
+   display: flex;
+}
+.Service-section .Service .Service-inner .service-left{
+   width: 50%;
+}
+.Service-section .Service .Service-inner .service-right{
+   width: 50%;
+}
+.Service-section .Service .Service-inner .service-left ul li, .Service-section .Service .Service-inner .service-right ul li{
+    display: flex;
+    margin-top: 13px;
+ }
+.Service-section .Service .Service-inner .service-left ul li i, .Service-section .Service .Service-inner .service-right ul li i{
+    font-size:15px;
+    color: #30aad7;
+    margin-right: 10px;
+ }
+.Service-section .Service .Service-inner .service-left ul li p, .Service-section .Service .Service-inner .service-right ul li p{
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:400;
+    color: #2c2c2c;
+ }
+
+/*==============================================================
+				pain section 
+===============================================================*/
+.pain-section{
+    width: 100%;
+    padding: 70px 0px;
+    background-color: #eff9fd;
+}
+.pain-section .pain{
+    width: 100%;
+    text-align: center;
+    color: #005b8b;
+}
+.pain-section .pain h2{
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:700;
+    line-height: 34px;
+    color: #005b8b;
+}
+.pain-section .pain p{
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:400;
+    margin: 10px 0px 20px;
+    color: #2c2c2c;
+}
+.pain-section .pain  ul{
+    display: flex;
+    justify-content: center;
+}
+.pain-section .pain  button{
+    padding: 11px 32px;
+    border-radius: 50px;
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:700;
+    border: none;
+    color: #fff;
+    margin-right:15px;
+}
+
+/*==============================================================
+				About section 
+===============================================================*/
+.About-section{
+    width: 100%;
+    padding: 70px 0px 0px;
+}
+.About-section .About{
+    width: 100%;
+    text-align: center;
+    margin-bottom: -4px;
+}
+.About-section .About h2{
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:700;
+    line-height: 34px;
+    color: #005b8b;
+}
+.About-section .About p{
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:400;
+    margin: 10px 0px 20px;
+    color: #2c2c2c;
+}
+.About-section .About a{
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:700;
+    color: #30aad7;
+}
+.About-section .About a:hover{
+    color: #000;
+    transition: 1s;
+}
+
+.About-section .About img{
+   width: 100%;
+}
+/*==============================================================
+				smile section 
+===============================================================*/
+.smile-section{
+    width: 100%;
+    padding: 70px 0px;
+    background-color: #005b8b;
+}
+.smile-section .smile{
+    width: 100%;
+    text-align: center;
+}
+.smile-section .smile h2{
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:700;
+    line-height: 34px;
+    color: #fff;
+}
+.smile-section .smile p{
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:400;
+    margin: 10px 0px 20px;
+    color: #fff;
+}
+.smile-section .smile ul{
+    display: flex;
+    justify-content: center;
+}
+.smile-section .smile button{
+    padding: 11px 32px;
+    border-radius: 50px;
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:700;
+    border: none;
+    color: #fff;
+    margin-right:15px;
+}
+/*==============================================================
+				footer section 
+===============================================================*/
+.footer-section{
+    width: 100%;
+    background-color: #222222;
+    padding-top: 70px;
+}
+.footer-section .footer{
+    width: 100%;
+    display: flex;
+}
+.footer-section .footer .footer-left{
+    width: 60%;
+}
+.footer-section .footer .footer-left img{
+    width: 40%;
+}
+.footer-section .footer .footer-left p{
+    font-size: 12px;
+    line-height:17px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:400;
+    color: #fff;
+    margin-top: 50px;
+}
+/* right */
+
+.footer-section .footer .footer-right{
+    width: 40%;
+}
+.footer-section .footer .footer-right .footer-right-inner{
+    width: 100%;
+    display: flex;
+}
+/* right-center */
+.footer-section .footer .footer-right .footer-right-inner .footer-right-center{
+    width: 50%;
+}
+.footer-section .footer .footer-right .footer-right-inner .footer-right-center h3{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:700;
+    color: #fff;
+    margin: 10px 0px;
+}
+.footer-section .footer .footer-right .footer-right-inner .footer-right-center ul li{
+    margin-bottom: 6px;
+}
+.footer-section .footer .footer-right .footer-right-inner .footer-right-center ul li i{
+    margin-right: 12px;
+    font-size: 12px;
+    color: #30aad7;
+}
+.footer-section .footer .footer-right .footer-right-inner .footer-right-center ul li a{
+    font-size: 12px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:400;
+}
+/* right-right */
+
+.footer-section .footer .footer-right .footer-right-inner .footer-right-right{
+    width: 50%;
+}
+
+.footer-section .footer .footer-right .footer-right-inner .footer-right-right h3{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:700;
+    color: #fff;
+    margin: 10px 0px;
+}
+.footer-section .footer .footer-right .footer-right-inner .footer-right-right ul li{
+    margin-bottom: 6px;
+}
+.footer-section .footer .footer-right .footer-right-inner .footer-right-right ul li{
+    font-size: 12px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:400;
+}
+/* footer-right-img */
+.footer-right img{
+    width: 90%;
+    margin-top: 50px;
+}
+
+/* ======= footer ======== */
+.footer-bottom{
+    width: 100%;
+    padding:30px 0px;
+    margin-top: 50px;
+    background-color: #1b1b1b;
+}
+.footer-bottom .footer-bottom-inner{
+    display: flex;
+}
+.footer-bottom .footer-bottom-inner .footer-bottom-left{
+    width: 50%;
+}
+.footer-bottom .footer-bottom-inner .footer-bottom-left p{
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:400;
+    color: #fff;
+}
+.footer-bottom .footer-bottom-inner .footer-bottom-left span{
+    color: #30aad7;
+}
+.footer-bottom-right{
+    width: 50%;
+}
+.footer-bottom-right ul{
+    display: flex;
+    justify-content: flex-end;
+}
+.footer-bottom-right ul li i{
+   font-size:20px;
+   color: #fff;
+   margin-left: 10px;
+}
+.footer-bottom-right ul li i:hover{
+    color: #30aad7;
+    transform:rotate(360deg);
+    transition: 1s;
+}
